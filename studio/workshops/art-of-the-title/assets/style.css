@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Regular.woff2') format('woff2'),
+        url('Graphik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-RegularItalic.woff2') format('woff2'),
+        url('Graphik-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+.graphik {
+    font-family: 'graphik-regular', sans-serif;
+  }
+
+
+
+body {
+   background-color: black;
+   color: whitesmoke;
+   font-family: 'graphik-regular', sans-serif;
+}
+
+div.a {
+    text-align: center; 
+    font-size: 250px;
+}
+
+div.b {
+    text-align: center; 
+    font-size: 60px;
+    filter: blur(3px)
+}
+
+div.b:hover {
+    filter: none;
+
+}
+
+div.c {
+    text-align: center; 
+    font-size: 250px;
+    line-height: 0.9;
+}
