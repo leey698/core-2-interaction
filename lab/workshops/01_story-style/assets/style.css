@@ -65,6 +65,10 @@ body {
     background-color: bisque;
 }
 
+#home {
+    position: fixed;
+}
+
 /* Parts */
 .Part {
     background-color:rgb(215, 255, 84);
