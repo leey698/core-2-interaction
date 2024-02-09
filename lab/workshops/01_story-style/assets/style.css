@@ -1,11 +1,100 @@
 html {
-    background-color: cornflowerblue;
-    color: white;
+    background-color: rgb(81, 122, 200);
+    color: black;
+    font-family: monospace;
 
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: rgb(255, 103, 27);
+    display: inline;
+}
+
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Main Header */
 .MainHeader {
     text-align: center;
-    color: orange;
+    font-style: italic;
+    margin-top: 50px;
 
+}
+
+/* Nav */
+
+.Nav {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.Nav a{
+    color:rgb(215, 255, 84);
+    text-decoration: none;
+}
+
+.Nav-list {
+    list-style-type: none;
+    margin-top: 20px;
+    padding: 10px;
+    /* background-color: rgb(255, 103, 27); */
+}
+
+.Nav-list:hover {
+    color:rgb(255, 103, 27);
+}
+
+.Nav-item {
+    display: inline-block;
+    background:rgb(255, 103, 27);
+    padding: 5px;
+}
+
+.Nav-item:hover {
+    background-color: bisque;
+}
+
+/* Parts */
+.Part {
+    background-color:rgb(215, 255, 84);
+    padding: 10px;
+    color:rgb(0, 0, 0);
+    border: 1.5px solid black;
+    margin: 50px 0 50px 0;
+}
+
+/*
+#PartOne {
+    background-color: rgb(255, 147, 212);
+}
+
+#PartTwo {
+    background-color: rgb(255, 210, 61);
+}
+
+#PartFive {
+    background-color: antiquewhite;
+}
+*/
+
+/* Media Elements */
+img, video, audio, object {
+    width: 100%;
+    margin-top: 10px;
+}
+
+object {
+    aspect-ratio: 4/3;
+    
 }
