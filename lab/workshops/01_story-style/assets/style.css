@@ -65,8 +65,9 @@ body {
     background-color: bisque;
 }
 
-#home {
+#Home {
     position: fixed;
+    left: 10px;
 }
 
 /* Parts */
