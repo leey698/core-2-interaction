@@ -1,3 +1,19 @@
 html {
-    color: purple;
+    font-family: 'helvetica';
+    margin-left: 5rem;
+    margin-right: 5rem;
+   background-color: rgb(244, 194, 235);
+   color: rgb(44, 118, 73);
 }
+
+a {
+    text-decoration: underline;
+    color: rgb(44, 118, 73);
+    
+}
+
+.Post {
+    background-color: (44, 118, 73);
+    color: (244, 194, 235); 
+}
+
