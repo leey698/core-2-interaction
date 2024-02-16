@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toggle Text</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<button id="yesButton">Yes</button>
+<button id="noButton">No</button>
+
+<p>Some text <span>with</span> yes in different <span> places.</span></p>
+<p>Another paragraph <span>with</span> yes occurrences<span> .</span></p>
+
+<script>
+$(document).ready(function() {
+  var originalText = $('span').text();
+
+  $('#yesButton').click(function() {
+    $('span').text('Yes');
+  });
+
+  $('#noButton').click(function() {
+    $('span').text('No');
+  });
+});
+</script>
+
+</body>
+</html>

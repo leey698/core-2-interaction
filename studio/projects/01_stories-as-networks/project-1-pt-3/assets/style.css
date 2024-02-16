@@ -1,0 +1,18 @@
+html {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #E3E6D6;
+}
+
+h1 {
+    margin-top: 7pt;
+    margin-left: 7pt;
+    font-size: 30pt;
+}
+
+p {
+    font-size: 60pt;
+
+}
+
