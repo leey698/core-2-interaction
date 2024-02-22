@@ -15,8 +15,7 @@
         font-family: "neue-haas-grotesk-display", sans-serif;
         font-weight: 500;
         font-style: normal;
-        background-color: #E3E6D6;
-        
+        /* background-color: #E3E6D6; */
         }
 
         h1 {
@@ -53,7 +52,7 @@
     
     <script>
         $(document).ready(function() {
-            var punctuations = ['!', '.', ',', '?', ':', ';', '"'];
+            var punctuations = ['!', '.', ',', '?', ':', ';', '’'];
 
             // Define links for each punctuation
             var punctuationLinks = {
@@ -63,7 +62,7 @@
                 '?': 'content/question-mark.html#1',
                 ':': 'content/colon.html#1',
                 ';': 'content/semicolon.html#1',
-                '"': 'content/apostrophe.html#1'
+                '’': 'content/apostrophe.html#1'
             };
 
             function getRandomPosition() {
