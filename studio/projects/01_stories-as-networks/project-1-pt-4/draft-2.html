@@ -18,12 +18,15 @@
         margin-left: 5px;
         margin-top: 0;
         }
-        
-        div {
-        display:flex;
-        align-items: center;
-        justify-content: center;
+
+        fieldset {
+        margin: auto;
+        width: 110px;
+        height: auto;
+        padding: 2rem;
+        margin-top: 130px;
         }
+
     </style>
 </head>
 <body>
@@ -35,7 +38,11 @@
         <fieldset>
             <legend>Select a punctuation</legend>
             <div>
-              <input type="checkbox" id="period" name="period" checked />
+                <input type="checkbox" id="random" name="random" checked />
+                <label for="random">random</label>
+              </div> 
+            <div>
+              <input type="checkbox" id="period" name="period" />
               <label for="period">.</label>
             </div>     
             <div>

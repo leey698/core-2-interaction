@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Alphabets</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <style>
+        body, html {
+            height: 100%;  
+            width: 100%;
+            font-family: "neue-haas-grotesk-display", sans-serif;
+            font-style: normal;
+            background-color: #E3E6D6;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+            margin-left: 0.5rem;
+        }
+
+        .alphabet {
+            font-size: 2rem;
+            position: absolute;
+            font-weight: 600;
+        }
+
+        .alphabet:hover {
+            color: red;
+        }
+
+        .alphabet:active {
+            color: red;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>On Punctuation
+            <br>by Gertrude Stein
+        </h1>
+    </header>
+
+    <script>
+        $(document).ready(function() {
+            var alphabets = [',', '!', '.', '?', ';', ':', '’'];
+
+            function getRandomPosition() {
+                var position = {
+                    top: Math.random() * $(window).height(),
+                    left: Math.random() * $(window).width()
+                };
+                return position;
+            }
+
+            $.each(alphabets, function(index, alphabet) {
+                var position = getRandomPosition();
+                var alphabetDiv = $('<div class="alphabet">' + alphabet + '</div>').css(position);
+                $('body').append(alphabetDiv);
+            });
+        });
+    </script>
+</body>
+</html>
