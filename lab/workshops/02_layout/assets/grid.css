@@ -1,0 +1,37 @@
+.Group {
+    background-color: aqua;
+    border: 1px solid blue;
+    padding: 10px;
+
+    /* Grid */
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr ;
+}
+
+/* Group One */
+.GroupOne {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+/* Classmate */
+.Classmate {
+    background-color: dodgerblue;
+    border: 1px solid blue;
+    padding: 10px;
+    color: blue;
+}
+
+.Main {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#Brianna {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
