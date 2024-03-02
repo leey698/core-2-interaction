@@ -1,8 +1,41 @@
-main {
+.Main {
     font-family: arial;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin: 1.5rem;
+}   
+
+.Content {
+    background-color: rgb(251, 255, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 10px;
+    margin: 30px;
+    display: inline-block;
+
 }
 
 .name {
+    display: inline-block;
+
+}
+
+.special {
+    color: yellow
+}
+
+img {
+    width: 400px;
+    border: 1px solid black;
+}
+
+iframe {
+    border: 1px solid black;
     
+}
+
+.Metadata {
+    display: inline-block;
+    background-color: black;
+    color: white;
+
 }
