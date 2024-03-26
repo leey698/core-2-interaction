@@ -41,9 +41,9 @@ p {
 	border: 1px solid black;
 }
 
-.Note[data-type="image"] {
+/* .Note[data-type="image"] {
 	border: 5px solid green;
-}
+} */
 
 .Note[data-filter="grocery"] {
 	background-color: 5px solid pink;
