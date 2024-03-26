@@ -1,0 +1,78 @@
+/* General */
+
+html {
+	font-family: sans-serif;
+}
+
+dl, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	image-rendering: pixelated;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+p {
+	margin: 0;
+}
+
+
+/* Main  */
+
+.Main {
+	padding: 1rem;
+	margin: 1rem 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+
+/* Kirby  */
+
+.Kirby {
+	padding: 1rem;
+	background-color: white;
+	border-radius: 5px;
+	width: 200px;
+}
+
+.Kirby img {
+	width: 100%;
+}
+
+.Kirby p {
+	margin-top: 1rem;
+	justify-self: flex-end;
+}
+
+
+/* Swatch  */
+
+.Swatch {
+	width: 1rem;
+	height: 1rem;
+	display: inline-block;
+	border: 1px solid gainsboro;
+	margin-top: 0.5rem;
+}
+
+
+/* Footer  */
+
+.Footer {
+	font-family: monospace;
+	padding: 1rem;
+	margin: 1rem 0;
+	text-align: center;
+}

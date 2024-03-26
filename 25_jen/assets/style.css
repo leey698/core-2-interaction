@@ -1,0 +1,59 @@
+html {
+	margin: 0;
+	font-family: helvetica;
+}
+
+header {
+	font-size: 2rem;
+	margin: 1.2rem;
+
+}
+
+.menu-index {
+	text-align: right;
+}
+
+.menu-about {
+	text-align: right;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+a.hover {
+	color:blue;
+}
+
+img {
+	max-width: 50%;
+}
+
+p {
+	margin: 0;
+}
+
+.Note {
+	padding: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	border: 1px solid black;
+}
+
+.Note[data-type="image"] {
+	border: 5px solid green;
+}
+
+.Note[data-filter="grocery"] {
+	background-color: 5px solid pink;
+}
+
+/* .Note-date {
+	text-align: right;
+}
+.Note-filter {
+	text-align: left;
+} */
+
+
