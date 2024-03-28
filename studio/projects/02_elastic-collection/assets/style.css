@@ -1,29 +1,21 @@
 html {
-	margin: 0;
 	font-family: helvetica;
+	display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 header {
-	font-size: 2rem;
-	margin: 1.2rem;
-
-}
-
-.menu-index {
-	text-align: right;
-}
-
-.menu-about {
-	text-align: right;
+	font-size: 3rem;
+	margin: 1rem;
 }
 
 a {
 	text-decoration: none;
 	color:black;
-}
-
-a.hover {
-	color:blue;
 }
 
 img {
@@ -32,28 +24,59 @@ img {
 
 p {
 	margin: 0;
+	margin-left: 1rem;
+	
 }
 
 .Note {
-	padding: 1rem;
+	margin-top: -1px;
+	padding: 0.3rem;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	border: 1px solid black;
+	grid-template-columns: 1fr 1fr;
+	border: 0.6px solid #000000;
+	width: 100%;
+	font-size: 10pt;
 }
 
-/* .Note[data-type="image"] {
-	border: 5px solid green;
-} */
 
-.Note[data-filter="grocery"] {
-	background-color: 5px solid pink;
+summary {
+	list-style: none;
+	cursor: pointer;
+	margin-left: 1rem;
 }
 
-/* .Note-date {
+img {
+	width: 100px;
+}
+
+.Note-date {
 	text-align: right;
+	margin-right: 1rem;
 }
-.Note-filter {
+/* .Note-filter {
 	text-align: left;
 } */
 
+
+.Note-filter {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* color by filter on hover */
+
+.Note[data-filter="dreams that made me feel a certain way"]:hover {
+    background-color: #82D8D5;
+}
+
+.Note[data-filter="thoughs on the L train"]:hover {
+    background-color: #F6A04D;
+}
+
+.Note[data-filter="grocery list"]:hover {
+    background-color: #FFE800;
+}
+
+.Note[data-filter="grocery list"] > details[open] {
+    background-color: #FFE800;
+}
 

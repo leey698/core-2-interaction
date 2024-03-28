@@ -1,0 +1,78 @@
+<label for="titleFilter">Title:</label>
+<input type="text" id="titleFilter">
+<label for="dateFilter">Date:</label>
+<input type="text" id="dateFilter">
+<button onclick="applyFilters()">Apply Filters</button>
+
+<table id="data-table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody id="table-body">
+        <!-- Table rows will be added dynamically here -->
+    </tbody>
+</table>
+
+<script>
+    const data = [
+    {
+        type: 'text',
+        date: '2020-11-15',
+        filter: 'grocery list',
+        title: 'Sunday night',
+        text: 'Audrey Wilkinson moscato<br>Fruit platter<br>Movie?<br><br>Fruit platter<br>Pineappele<br>Melon<br>Grapes<br>Kiwi<br>Orange<br>Mango?<br>Watermelon<br><br>Alcohol<br>Midori illusion<br>Audrey Wilkinson moscato'
+    }
+];
+
+let currentData = [...data];
+
+function applyFilters() {
+    const titleFilter = document.getElementById("titleFilter").value.toLowerCase();
+    const dateFilter = document.getElementById("dateFilter").value.toLowerCase();
+
+    const filteredData = data.filter(item => {
+        const titleMatches = item.title.toLowerCase().includes(titleFilter);
+        const dateMatches = item.date.toLowerCase().includes(dateFilter);
+        return titleMatches && dateMatches;
+    });
+
+    renderTable(filteredData);
+}
+
+function toggleText(rowId) {
+    const textRow = document.getElementById(`text-row-${rowId}`);
+    textRow.classList.toggle('hidden');
+}
+
+function renderTable(filteredData) {
+    const tableBody = document.getElementById("table-body");
+    tableBody.innerHTML = '';
+
+    filteredData.forEach((item, index) => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+            <td onclick="toggleText(${index})">${item.title}</td>
+            <td>${item.date}</td>
+        `;
+        tableBody.appendChild(row);
+
+        const textRow = document.createElement('tr');
+        textRow.id = `text-row-${index}`;
+        textRow.classList.add('hidden');
+        const textCell = document.createElement('td');
+        textCell.colSpan = 2;
+        textCell.innerHTML = item.text;
+        textRow.appendChild(textCell);
+        tableBody.appendChild(textRow);
+    });
+}
+
+renderTable(currentData); // Initial rendering
+
+
+</script>
+
+</html>

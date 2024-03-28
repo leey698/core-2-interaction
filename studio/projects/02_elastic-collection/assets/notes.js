@@ -1,15 +1,30 @@
 var notes = [
+
+	// cutout images
+
 	{
 		type: `image`,
 		date: `2024–01–28`,
 		filter: `when I realised apple's cutout feature actually does a better job than adobe ps`,
+		title: `bibimbap`,
+		text: ``,
 		image: `bibimbap-2024-01-28.png`,
 	},
 	{
 		type: `image`,
 		date: `2024–01–28`,
 		filter: `when I realised apple's cutout feature actually does a better job than adobe ps`,
+		title: `curry udon`,
+		text: ``,
 		image: `curry-udon-2024-01-28.png`,
+	},
+	{
+		type: `image`,
+		date: `2024–01–28`,
+		filter: `Montreal coffee collage`,
+		title: `montreal coffee`,
+		text: ``,
+		image: `montreal-coffee-1.png`,
 	},
 	
 	// grocery list
@@ -62,6 +77,7 @@ var notes = [
 	},
 
 	// dreams that made me feel a certain way
+
 	{
 		type: `text`,
 		date: `2022–10–28`,
@@ -132,4 +148,114 @@ var notes = [
 		title: `JS`,
 		text: `꿈에 JS와 JS 여친이 나왔다 ;; 다같이 해나 집에서 영화를 보는 이상한 배경이었다. 슬기 언냐도 나와서 같이 묵찌빠 같은걸 계속 해댔다. ㅋㅋㅋㅋ <br>		<br>		아, 그리고 꿈에서 JS 여친과 얘기했는데 둘이<br>		동거를 한다고 말해줬다. 난 엄청 충격이었지만 놀란척도 못하고 아~ 이럴수밖에 없었다. 흑흑..`	
 	},
+
+	// thoughs on the L train
+
+	{
+		type: `text`,
+		date: `2023–12–01`,
+		filter: `thoughs on the L train`,
+		title: `01/12/23 fri 08:57a`,
+		text: `officially the first day of dec, so I wore a red checkered scarf to match the vibes. I'm running quite late and the train is chill. the train arrived at my station completely empty, so I had the luxury to choose my seat. it could've been wherever. 
+
+		black leather platform chelsea boots
+		nike sneakers
+		adidas sneakers
+		nike sneakers
+		black knee high stiletto boots
+		black naked wolf platform boots
+		
+		my shoes: salomons`	
+	},
+	{
+		type: `text`,
+		date: `2023–12–03`,
+		filter: `thoughs on the L train`,
+		title: `03/12/23 sun 11:06a`,
+		text: `I'm heading to Hudson Yards for a Korean skincare event today. The weather is ass and has been raining since the morning, which automatically put me in a bad mood, but we have places to be. Because of the humidity, the L train is musty and hard to breathe in. I also just think some stinky people are in this carriage rn.`	
+	},
+	{
+		type: `text`,
+		date: `2023–11–04`,
+		filter: `thoughs on the L train`,
+		title: `04/11/23 mon 9:03a`,
+		text: `train came to myrtle with a few empty seats, but now at 1st ave it's very packed. the privilege of living far in bushwick 👑 
+		today the air feels well conditioned and fresh. a lot of jean wearers today.`	
+	},
+	{
+		type: `text`,
+		date: `2023–12–12`,
+		filter: `thoughs on the L train`,
+		title: `12/12/23 tue 9:05a`,
+		text: `this is going to be my last train ride to this interaction class... thank fuck 😭😭😭
+		
+		I've been so unbelievably unmotivated for this class. I've never felt this drained, frustrated, and avoidant with any other class. to think that this is my last train ride to this class, I do of course feel a sense of regret—regretting that I was never on time, never gave it my 100 (not even 50 tbh), and didn't even really try to make things work. hopefully on the train ride back today, I’ll feel more relieved that it's done at least.`	
+	},
+	{
+		type: `text`,
+		date: `2023–12–13`,
+		filter: `thoughs on the L train`,
+		title: `13/12/23 wed 08:37a`,
+		text: `my last train ride to geoff's class this sem. I'm hoping this isn't the last ever class with him. 
+		
+		the train was fairly empty until bedford ave, then on 1st ave it became jam packed`
+	},
+	{
+		type: `text`,
+		date: `2024–01–22`,
+		filter: `thoughs on the L train`,
+		title: `22/01/24 mon 8:39a`,
+		text: `First day back on the train since winter break 😃 most of the white magnesium tracing appears to be gone but there are still some spots on the floor of the train. Luckily the train was fairy empty so I was able to grab a seat. Gonna read my book now because I brought that heavy ass book with me!`
+	},
+	{
+		type: `text`,
+		date: `2023–11–28`,
+		filter: `thoughs on the L train`,
+		title: `28/11/23 tues 7:44p`,
+		text: `a bboy performed some impressive pole dance and got off at bedford ave. l trains are always full of funky people, good and bad way. whenever I encounter subway dancers, I thoroughly enjoy their performances. their hat tricks are honestly so impressive. 
+		
+		right across me was a white man that looked very high and drowsy. he was trying to type something but his fingers were barely working, and he could barely even keep his eyes open. he kept leaning towards his right side as if he were falling asleep. he stood up and got off at lorimer, hope he got off at the right stop. I lowkey worry about these people sometimes, am I being too naive to be caring for random druggos on the train?`
+	},
+	{
+		type: `text`,
+		date: `2023–11–28`,
+		filter: `thoughs on the L train`,
+		title: `28/11/23 tues 8:51a`,
+		text: `For some strange reason, the train didn't run as often as they normally do. The screen that tells the train times said: Manhattan 0 min (flashing), and then 7 min. 7??? wtf, it's rush hour, 7 mins is unacceptable. Morning is not going so well but it only got worse when this random girl in scrubs would make the tiniest little space for me to fit on the seats. What does she gain from that. Like move over just a tad bit more and everyone would be at peace. I still squeezed myself in the tiny space that was given to me and decided to write some shit down so I feel better. I was kind contemplating getting back up because I'm so squished rn, but lowkey glad I sat cos the train is so damn packed rn. It stopped at Lorimer St Station and some people seem to be just waiting for the next train since this one is too full. Everyone on the train is quite bundled up this morning, but not as much as the people on Montreal. There's a girl weaeing a khaki trench coat, light blue jeans, pointy boots (??) and a chunky white scarf, and I really like her style. I also should look into getting a scarf soon`
+	},
+	{
+		type: `text`,
+		date: `2023–11–29`,
+		filter: `thoughs on the L train`,
+		title: `29/11/23 wed 08:57a`,
+		text: `quite a full train today, but it was lovely. 2 buskers (could be a couple, not sure) sang a song accompanied by an acoustic guitar, and the girl's voice was so clear and nice to listen to. I found an empty seat right where they were performing, so I got to watch the performance like a VIP and remembered--I have a 1 dollar bill in my wallet! I don't think I've ever tipped a subway busker, or let alone any buskers in NY, but I felt like today was the day. I rushed to whip my $1 bill out of my wallet to put it in the female busker's money collecting tote bag, and got a very sincere 'thank you' in return. everyone else on the train is also not so crazy or disrespectful. maybe wednesday mornings make everyone behave a bit better lol!`
+	},
+	{
+		type: `text`,
+		date: `2023–11–30`,
+		filter: `thoughs on the L train`,
+		title: `30/11/23 thu 5:33p`,
+		text: `not on my usual l train today, because I went to apple and uniqlo in soho. luckily I got on this M train before rush hour? so it's not jam packed body to body. or, maybe it's just that L train is always so fucking packed all the time so this train feels really empty. it's 5:35 pm and already pitch black outside. 
+		
+		as I write these notes down I realised that I often like to observe other train commuters' facial expressions and outfits. it feels like everyone's facial expressions match their outfits. like if someone's super fitted up w maison margiela tabi boots and some sunglasses, I would never witness a smile on their face. always straight poker model face. oh nvm I just saw a girl wearing a leather jacket and tabi flats and she smiled... at her bf though. anyone can smile at the dumbest things when they're with someone they love are in love with! `
+	},
+	{
+		type: `text`,
+		date: `2023–11–30`,
+		filter: `thoughs on the L train`,
+		title: `30/11/23 thu 11:21a`,
+		text: `on my way to yoga class, and I'm on one of the front carriages today since I'm getting off on 3rd ave. there's a very pretty man fitted up in grey/rusty washed jeans, some cool silver necklaces and rings, and a thin pair of silver framed glasses. looks like a comfy fit but looks fitted cos of the accessories and black leather shoes. there are quite a few fitted up people on this train today. a girl that looks identical to cardi b just embarked the train and sat right across me LOL `
+	},
+	{
+		type: `text`,
+		date: `2024-03-26`,
+		filter: `thoughs on the L train`,
+		title: `2024-03-26 thu 10:00p`,
+		text: `On the train back home after my night interaction class and I walked into a train carriage with shit smeared all over the train seats. It is undoubtedly shit, I'm hoping it is dog shit but I'm afraid it's human shit. In nyc it is probably more likely that it's human shit...
+		
+		Luckily the shit is all dry and crusty so there is so smell. I'm sitting on the seats opposite to the seat with shit, I'm hoping my seat is clean. I can't believe I'm writing about shit on train seats. New york just being new york....`
+	},
+	
+
+
 ]
