@@ -1,0 +1,13 @@
+Beispiel:
+Meine Freundin heißt Carly. Sie kommt aus Florida. Sie wohnt jetzt in Colorado. Sie studiert Biologie und Englisch an der Uni in Bolder. Sie ist 19 Jahre alt. Sie findet Geschichte auch toll. Und sie findet Biologie sehr interssant. Sie findet Chemie sehr schwer. Carly ist intelligent und freundlich. Sie ist 1,70m groß.
+
+Einschließlich: 
+Wohrnort
+Alter
+Größe
+Geburtsort
+Hauptfach/Kurse
+Persönlichkeit
+
+Mein Schreiben:
+Meine Beste Freundin heißt Alicia. Sie kommt aus Sydney in Australien und wohnt jetzt in Sydney. Sie studiert Radiographie and der Uni in Sydney. Sie ist 22 Jahre alt. Sie findet Mathematik auch toll, und Sie findet Japanisch interssant. Sie findet Physik sehr schwer. Alicia ist intelligent und witzig. Sie ist 1,67m groß. 

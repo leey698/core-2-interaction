@@ -1,0 +1,8 @@
+수정사항
+!_첫번째 페이지 좌측 상단 ‘JIsu Jung Han’ 표기 (마음에 안들 시 빼도 됨)
+전체 description text box font size 14pt. leading 17pt. 로 변경
+pg9 사진 넘버링 에러 10 -> 9 Wine Stopper Feet 수정 완료
+!_pg10 image description 수정 필요 (?) 뭔진 몰라도 사진과 넘버가 안맞음.
+pg17 사진 넘버링 에러 수정 완료
+!_pg21 사진 넘버링 에러 수정 필요
+pg23 사진 넘버링 에러 수정 완료
