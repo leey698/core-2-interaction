@@ -150,16 +150,19 @@ input[type="button"] {
 
 .Note[data-filter="dreams that made me feel a certain way"].open-details, .Note[data-filter="dreams that made me feel a certain way"]:hover {
     background-color: #82D8D5;
+	color: black;
 }
 
 .Note[data-filter="thoughts on the L train"].open-details, .Note[data-filter="thoughts on the L train"]:hover {
     background-color: #B8C7C4;
+	color: black;
 }
 
 
 .Note[data-filter="grocery list"].open-details,
 .Note[data-filter="grocery list"]:hover {
     background-color: #FFE800;
+	color: black;
 }
 
 .Note[data-filter="giving recommendations to friends" ].open-details, .Note[data-filter="giving recommendations to friends"]:hover {
@@ -170,6 +173,7 @@ input[type="button"] {
 .Note[data-filter="iphone photo cutouts"].open-details,
 .Note[data-filter="iphone photo cutouts"]:hover {
     background-color: #F6A04D;
+	color: black;
 }
 
 .Note[data-filter="i don’t remember writing this"].open-details, .Note[data-filter="i don’t remember writing this"]:hover {
@@ -180,27 +184,37 @@ input[type="button"] {
 .Note[data-filter="notes that contain only one word"].open-details,
 .Note[data-filter="notes that contain only one word"]:hover {
     background-color: #AC936E;
+	color: black;
 }
 
 .Note[data-filter="notes that end mid-sentence"].open-details,
 .Note[data-filter="notes that end mid-sentence"]:hover {
     background-color: #ABFFAF;
+	color: black;
 }
 
 .Note[data-filter="chronicles of my life"].open-details,
 .Note[data-filter="chronicles of my life"]:hover {
     background-color: #F2CDCF;
+	color: black;
 }
 
 .Note[data-filter="quotes i didn’t want to forget"].open-details,
 .Note[data-filter="quotes i didn’t want to forget"]:hover {
     background-color: #F984CA;
+	color: black;
 }
 
-.Note[data-filter="qreasons i never downloaded duolingo"].open-details,
-.Note[data-filter="reasons i never downloaded duolingo"]:hover {
+.Note[data-filter="learning my nth language"].open-details,
+.Note[data-filter="learning my nth language"]:hover {
     background-color: #00838A;
 	color: white;
+}
+
+.Note[data-filter="obsessive fitness journal"].open-details,
+.Note[data-filter="obsessive fitness journal"]:hover {
+    background-color: #62A8E5;
+	color: black;
 }
 
 /* MEDIA QUERY */

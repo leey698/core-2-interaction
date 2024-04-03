@@ -120,7 +120,7 @@ function generateTagFilters() {
         'obsessive fitness journal': '#62A8E5',
         'chronicles of my life': '#F2CDCF',
         'quotes i didn’t want to forget': '#F984CA',
-        'reasons i never downloaded duolingo': '#00838A',
+        'learning my nth language': '#00838A',
 
     };
 
@@ -129,7 +129,7 @@ function generateTagFilters() {
         'thoughts on the L train': '#', 
         'giving recommendations to friends': '#FFFFFF', 
         'i don’t remember writing this': '#FFFFFF',
-        'reasons i never downloaded duolingo': '#FFFFFF',
+        'learning my nth language': '#FFFFFF',
     };
 
     // Create a button for each unique tag

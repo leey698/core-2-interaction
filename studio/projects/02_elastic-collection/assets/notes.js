@@ -709,28 +709,58 @@ var notes = [
 	text: `"중간만 하자"`
 	},
 
-// reasons i never downloaded duolingo
+// learning my nth language
 	{
 	type: `text`,
 	date: `2023–11–20`,
-	tag: `reasons i never downloaded duolingo`,
+	tag: `learning my nth language`,
 	title: `3.3 Haus und Wohnung`,
 	text: `Ich wohne in Brooklyn zu zweit, also mit winer Mitbewohnerin. Ich habe einen Stuhl, einen Teppich, und drei Lampen. Ich möchte noch ein sessel und ein Regal haben. Die Wohnung ist sehr schön und hell, weil die Wohnung viel Sonnenlicht hat.`
 	},
 	{
 	type: `text`,
 	date: `2023–11–08`,
-	tag: `reasons i never downloaded duolingo`,
+	tag: `learning my nth language`,
 	title: `German noun vocab`,
 	text: `plant - die Pflanze<br>	mobile phone - das Handy<br>	book - das Buch<br>	espresso machine - die Espressomaschine<br>	backpack - der Rucksack`
 	},
 	{
 	type: `text`,
 	date: `2018–09–24`,
-	tag: `reasons i never downloaded duolingo`,
+	tag: `learning my nth language`,
 	title: `ねがはる - 값이 비싸다`,
 	text: `おしめ - 아끼다<br>	それる - 빗나다, 벗어가다<br>	こうかん - 교환<br>	もうける - 이익을 벌다<br>	購入[こうにゅう] - 구입<br>	おとす - 떨어뜨리다<br>	まどわす - 헷갈리게 하다<br>	かくす - 감추다, 숨기다<br>	こうか - 효과`
 	},
-	
+	{
+	type: `text`,
+	date: `2023–11–20`,
+	tag: `learning my nth language`,
+	title: `Das ist meine jüngere Schwester Isabelle.`,
+	text: `Sie ist zwanzig Yahre alt, und sie ist die Jüngste in der Familie. Sie ist 1,60m groß, das ist 5cm kleiner als ich, aber sie ist nicht die Kleine in der Familie. Meine Mutter ist 1,55m groß, also ist sie die Kleine. Isabelle hat schwarze lange Haare, und dunkelbraune Augen.
+
+	Herzlich willkommen in meiner Berliner Küche. Hier zu meiner Linken ist der Ofen, gute Größe, geht bis 250Grad Celsius, hat verschiedene Funktionen.Hier unten ist der Kühlschrank, natürlich eine kleine aber normale Größe für Deutschland mit Butter, Milch, Jogurt, Marmelade gibt's, paar Berliner Biere, Gemüse, Aufschnitt. Es gibt auch ein kleines Gefrierfach. Das ist also der Kühlschrank.`
+	},
+	{
+	type: `text`,
+	date: `2023–11–13`,
+	tag: `learning my nth language`,
+	title: `Das ist unser Freund kore.`,
+	text: `Er trägt ein gelbes tshirt, eine schwarze ski Jacke und Winter Stiefel.<br><br>	Das ist unser Fruend Dima. Er tragt ein weißes Tshirt, weiße Kopfhörer, graue Shots.<br>	<br>	Das ist unsere Freundin Hansol. Sie trägt einen wiß Pullover, eine blaue Jeans, ein weiß Tshirt.`
+	},
+	{
+	type: `text`,
+	date: `2021–09–03`,
+	tag: `learning my nth language`,
+	title: `decadence - (못마땅함)타락, 퇴폐`,
+	text: `knock-kneed - 안짱다리<br>	de rigueur - (사회 관습상) 필요한<br>	grievance - 불만 [고충]<br>	vengeance - 복수,앙갚음<br>	evict - expel (someone) from a property, especially with the support of the law.<br>	precarious - 불안정한, 위태로운<br>	affluent - prosperous`
+	},
+	{
+	type: `text`,
+	date: `2021–11–08`,
+	tag: `learning my nth language`,
+	title: `Die Uni in Mainz ist sehr schön.`,
+	text: `Die Uni in Mainz besitzt einen großen Campus. Das ist inzwischen nicht mehr normal in Deutschland. Viele Universitäten sind über eine Stadt verteilt oder über einen ganzen Landstrich verteilt. In Mainz gibt es noch einen einzigen großen Campus, in dem sich alle Studenten eine Mensa teilen und man sich über den Tag begegnet.`
+	},
+
 ]
 
