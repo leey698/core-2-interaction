@@ -20,7 +20,4 @@ var data = [
         Date:'May 10, 2016',
         Filter: 'I don’t remember writing this',
     },
-    {
-
-    }
 ];
