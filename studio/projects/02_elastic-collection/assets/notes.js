@@ -64,6 +64,17 @@ var notes = [
 	},
 	{
 		type: `text`,
+		date: `2020–11–25`,
+		tag: `grocery list`,
+		title: `월남쌈 재료`,
+		text: `Sushi rice <br>
+		Salmon Sashimi <br>
+		Cabbage, Cucumber, Nori, Carrot<br>
+		Roasted Sesame seasoning<br>
+		Crispy shallot`	
+	},
+	{
+		type: `text`,
 		date: `2022–06–22`,
 		tag: `grocery list`,
 		title: `Groceries`,
@@ -589,7 +600,7 @@ var notes = [
 // chronicles of my life
 	{
 	type: `image`,
-	date: `2022–11–10`,
+	date: `2023–02–07`,
 	tag: `chronicles of my life`,
 	title: `7 feb (right after surgery)`,
 	image: `IMG_0782.JPG`,
@@ -670,7 +681,99 @@ var notes = [
 	title: `올해의 마지막 일기`,
 	text: `2023년이 채 10분도 남지 않은 상황에서 올해의 마지막 일기를 쓴다<br>	정말 다사다난하고 감정적으로 많이 힘든 한 해였지만 여러일에 도전도 하고 열심히 산 것 같아서 뿌듯하다<br>	피티 받음<br>	스노우보드 레슨 (곧 받을예정)<br>	책과 많이 친해짐<br>	유튜브 천명 찍음 ㅋㅋㅋ<br>	책 만들기<br>	디자인 레퍼런스와 전시를 열심히 다님<br>	<br>	내년에는 작업물을 훨씬 더 많이 하고, 새로운걸 시도하기보다 시작한 일들을 더 깊고 열심히 파는것을 목표로 두고싶다. 화이팅!`
 	},
+	{
+	type: `text`,
+	date: `2022–03–30`,
+	tag: `chronicles of my life`,
+	title: `pain feels like a headband wrapping my head is tightening`,
+	text: `pain above my left ear<br>	left eye pain<br>	taking a panadol before workout doesn't prevent the headache<br>	headache doesn't worsen when doing bodyweight exercises (only worsens significantly when lifting weight)`
+	},
+	{
+	type: `text`,
+	date: `2023–01–12`,
+	tag: `chronicles of my life`,
+	title: `구제 쇼핑 하면서 든 생각들`,
+	text: `오늘은 꼭 사야지! 라는 다짐을 하지 말자. 사고싶은걸 못 찾으면 실망감과 좌절감이 몰려온다`
+	},
+	{
+	type: `text`,
+	date: `2022–09–02`,
+	tag: `chronicles of my life`,
+	title: `낮에는 별 거 안해도 시간이 금방간다`,
+	text: `물마시러 가는데 30분<br>		외출준비 한시간<br>		별 거 안했는데 그새 밤이된다<br>		하지만 난 12시부터 두뇌가 풀 가동이 시작돼 이런저런 일을 한다<br>		(eg. 유튜브 편집, 미래 계획하기, 온라인 쇼핑 등등)<br>		
+		새벽 4시 50분인 지금도 인스타 툰 아이디어를 끄적이고있다…`
+	},
+	{
+	type: `text`,
+	date: `2023–03–16`,
+	tag: `chronicles of my life`,
+	title: `리즈디 트랜스퍼 포폴을 제출했다.`,
+	text: `마감 직전까지 원서를 고치고, 포폴 작업을 하다 드디어 냈다. 어제 밤새 잠을 못자서 너무 피곤하다.
 
+	If you're focused on something and grind for an extended period, I feel like your body adapts to it quite quickly and goes in full work mode. I feel this way whenever a deadline is close - I'm usually able to eventually get the design and idea I want in the matter of days or even hours. But when I'm done with something, I'm just so sick of  the idea of working and I feel like I literally shut myself down from any work. Rest is important and much needed of course, but I feel like I learned so much from being so focused on my work and my projects the past few weeks. It was probably my most transformative and fast growing time period in my design journey yet, so wouldn't it be a waste to just throw this all away?<br>	<br>	let's keep working and learning, and keep improving. all i have right now is time, and with this much passion and knowledge i have in my design, i know i can keep creating so many more cool things. `
+	},
+	{
+	type: `text`,
+	date: `2023–07–16`,
+	tag: `chronicles of my life`,
+	title: `물어보지도 않고 관심도 없는 정보 혼자서 끊임없이 설명하고 가르침`,
+	text: `병원 가는 길인데 제발 조용히 노래나 들으면서 가고싶다`
+	},
+	{
+	type: `text`,
+	date: `2022–12–10`,
+	tag: `chronicles of my life`,
+	title: `오늘의 다짐`,
+	text: `난 항상 무언가를 하려는 다짐을 하고 금방 까먹어 버리는 금붕어지만 이번엔 정말로 생각을 깊게 하며 머릿속을 오랜만에 재정비? 했다. 좀 생각을 계속 하니 몇몇 생각은 비워지기도 해서 다행이다.<br><br>	유튜브는 지금 컨셉 / 방향성 걱정할 거 없이 찍는데로 편집해서 올리기. 운동이던 미술 관련이던 볼사람은 다시 볼테니 일단은 영상을 더 꾸준하게 올리는걸 앞으로 1년간 연습 해야한다.<br>	아무리 바빠도 주 3회 운동은 꼭꼭 하기 (이번주는 한번밖에 안함..)<br>	계속해서 내가 좋아하는 작업 많이많이 하기. 너무 스트레스는 받지 말돼, 느슨해지지 않고 작업물을 계속 만들어야한다. (포폴 준비를 제대로 해야지)
+	`
+	},
+	{
+	type: `text`,
+	date: `2018–11–21`,
+	tag: `chronicles of my life`,
+	title: `오늘은 미술 실기와 일본어 리스닝 시험을 봤다.`,
+	text: `미술 프레젠테이션의 팜카드를 집에 까먹고 놓고온 바람에 즉석으로 스피치를 해야했다ㅜㅠ<br>	리스닝 연습은 이렇게 해야할꺼같다<br>	dot points that explicitly answer the question when note taking <br>	<br>	<br>	이번주 월요일엔 12학년 첫시험인 미술 이론을 봤는데 정말 망해서 좌절을했다ㅠㅠㅠㅠ하지만 괜찮다. 배운게 있으니까<br>	시험결과는 연습한 그대로임. 자만하지말고 불안하지 않을때까지 공부하셈<br>	무작정 문제를 많이 풀어보기보다는, 연습답완과 모법답안을 따로 둘다적어서 비교하는식으로 공부하기<br>	내일은 수학인데 답없다..^.^
+	`
+	},
+	{
+	type: `text`,
+	date: `2022–12–31`,
+	tag: `chronicles of my life`,
+	title: `올해의 마지막 일기`,
+	text: `2023년이 채 10분도 남지 않은 상황에서 올해의 마지막 일기를 쓴다<br>	정말 다사다난하고 감정적으로 많이 힘든 한 해였지만 여러일에 도전도 하고 열심히 산 것 같아서 뿌듯하다<br>	피티 받음<br>	스노우보드 레슨 (곧 받을예정)<br>	책과 많이 친해짐<br>	유튜브 천명 찍음 ㅋㅋㅋ<br>	책 만들기<br>	디자인 레퍼런스와 전시를 열심히 다님<br>	<br>	내년에는 작업물을 훨씬 더 많이 하고, 새로운걸 시도하기보다 시작한 일들을 더 깊고 열심히 파는것을 목표로 두고싶다. 화이팅!
+	`
+	},
+	{
+	type: `text`,
+	date: `2022–11–27`,
+	tag: `chronicles of my life`,
+	title: `완벽주의 버리기`,
+	text: `15분만 하면 그 이후에는 일 하기가 수월해 짐
+	`
+	},
+	{
+	type: `text`,
+	date: `2023–12–21`,
+	tag: `chronicles of my life`,
+	title: `이예진 지각 금지 프로젝트`,
+	text: `12/22<br>	9:00 기상<br>	9:30 까지 아침 및 잠깨기 + 아롱쓰 밥, 놀아주기<br>	9:40 양치, 세수<br>	9:45 화장 시작<br>	10:15 옷 갈아입기<br>	10:25 향수, 가방 챙기고 거실<br>	10:30 집 밖 나가<br>	<br>	10:40까지 옷을 다 입었지만 허둥지둥 가방 챙기고 나왔다 또 뭐를 까먹어 다시 올라가 결국 10:50에 집을 나섬. 그리고 10:59분에 버스를 탐. <br>	! 전 날 밤 가방 미리 준비, 신발 정해 놓을 것<br>	11:53분 내림;;<br>	12:02 정도에 요가원 도착! 다행히 많이 늦진 않음
+	`
+	},
+	{
+	type: `text`,
+	date: `2018–11–30`,
+	tag: `chronicles of my life`,
+	title: `정말 이번텀은 만신창이다...`,
+	text: `믿고있던 일본어도 1등도 2등도 아닌 3등을하고 나쁘지않게 쳤다고 생각한 3유닛도 진짜 망했다ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ내가 수학에서 74점을 맞았단게 정말 믿기지가 않는다.. 믿고싶지가 않다.<br>	4유닛도 나름 준비가 된 상태라고 생각했지만 시험에서 풀줄모르는 문제를 보니 힘이빠지고 제대로 집중도 못해서 빨리풀수있는 문제도 겁나 오래걸렸다. 진짜 이러면 안되겠단걸 몸소느꼈다. 이건 내 실력이 아니라는걸 난 알기때문에 할 수 있는건 하나밖에없다. 수학공부를 하나도 안틀릴때까지 해야겠다. 랭킹을 올리려면 이제진짜 정신차리고 수학공부를 빡세게 하고 다른과목들 랭킹 1위를 목표로 공부해야겠다.<br>	나태하게 있다간 진짜 망할거같다.<br>	이예진 정신차리자	`
+	},
+	{
+	type: `text`,
+	date: `2022–12–06`,
+	tag: `chronicles of my life`,
+	title: `케시 콘서트 시작 저녁 8시`,
+	text: `아직도 제대로 시작을 안함<br>	목마르고 다리 아프다
+	`
+	},
 
 // quotes i didn’t want to forget
 	{
