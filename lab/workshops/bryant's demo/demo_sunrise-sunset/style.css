@@ -1,0 +1,17 @@
+.box {
+	width: 100px;
+	height: 100px;
+	background: limegreen;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
+.shadow {
+	width: 100px;
+	height: 100px;
+	background: grey;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform-origin: top;
+}
