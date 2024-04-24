@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+div {
+    display: block;
+}
+
+.title {
+    margin: 0;
+    padding-left: 1.1rem;
+    font-size: 12.5rem;
+    color: white;
+    text-shadow:0.8px 0.8px 15px #fff;
+    /* text-transform: uppercase; */
+    position: fixed;
+}
+
+#date-location {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    line-height: 95%;
+    color: white;
+    position: fixed;
+    left: 1.6rem;
+    bottom: 2rem;
+    text-shadow:1px 1px 10px #ffffff;
+}
+
+#tickets {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    line-height: 95%;
+    color: white;
+    position: fixed;
+    right: 1.6rem;
+    bottom: 2rem;
+    text-shadow:1px 1px 10px #ffffff;
+}
+
+.description {
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+    color: white;
+    position: relative;
+    top: 140px;
+    left: 1.6rem;
+    text-shadow:1px 1px 10px #ffffff;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    font-size: 110%;
+    transition: 0.2s;
+}
+
+.dawn {
+    background: linear-gradient(180deg, rgba(242,205,207,1) 0%, rgba(113,152,166,1) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.sunrise {
+    background: linear-gradient(180deg, rgba(251,203,129,1) 0%, rgba(244,177,149,1) 31%, rgba(113,152,166,1) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.solar-noon {
+    background: linear-gradient(180deg, rgba(42,124,234,1) 0%, rgba(181,211,255,1) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.sunset {
+    background: linear-gradient(180deg, rgba(26,81,155,1) 0%, rgba(113,109,130,1) 31%, rgba(200,132,88,1) 64%, rgba(255,100,13,1) 100%);
+    width: 100vw;
+    height: 100vh;
+}
