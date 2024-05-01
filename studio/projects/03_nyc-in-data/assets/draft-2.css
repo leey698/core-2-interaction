@@ -9,7 +9,7 @@ body, html {
   .gradient-container {
     width: 100vw;
     height: 100vh;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
   }
@@ -18,7 +18,30 @@ body, html {
     width: 100vw;
     height: 100vh;
     background: conic-gradient(from 180deg at 50% 50%, #082245 0deg, #347DDE 0deg, #89BFFF 359.9639940261841deg);
+    position: relative;
+}
+
+.date-location {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    line-height: 95%;
+    color: white;
+    position: fixed;
+    left: 1.6rem;
+    bottom: 2rem;
+    display: flex;
 }
 
 
-  
+
+
+
+@font-face {
+    font-family: 'Nimbus Sans L';
+    src: url('NimbusSanL-Reg.woff2') format('woff2'),
+        url('NimbusSanL-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

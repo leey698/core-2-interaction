@@ -1,0 +1,290 @@
+html {
+	font-family: helvetica;
+	display: block;
+}
+
+body {
+	margin: 0;
+    padding: 0;
+}
+
+header {
+	margin-left: 2rem;
+	margin-top: 1.5rem;
+	color: #FF7AE2;
+}
+
+.homepage {
+	font-size: 3.5rem;
+}
+
+.description {
+	font-size: 1rem;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #FF7AE2;
+}
+
+/* tag filters */
+.tagFilters {
+	margin-top: 3rem;
+}
+
+.tagFilters button {
+    border: none;
+    padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.tagFilters[data-filter="giving recommendations to friends"] button {
+	color: white;
+}
+
+.tagFilters button:hover {
+    opacity: 1;
+}
+
+/* table styles*/
+
+img {
+	max-width: 50%;
+}
+
+.Note-content {
+	margin: 0;
+}
+
+.Note {
+	margin-top: -1px;
+	padding-top: 0.4rem;
+	padding-bottom: 0.4rem;
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	column-gap: 0.5rem;
+	border-top: 0.4px solid #FF7AE2;
+	border-bottom: 0.4px solid #FF7AE2;
+	border-left: none;
+	border-right: none;
+	width: 100%;
+	font-size: 10pt;
+}
+
+img {
+	width: 100px;
+}
+
+summary {
+	list-style: none;
+	cursor: pointer;
+}
+
+details {
+	margin-left: 2rem;
+	text-align: left;
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+
+.Note-tag {
+	text-align: left;
+    cursor: pointer; /* Change cursor to pointer on hover */
+	grid-column-start: 7;
+	grid-column-end: 10;
+}
+
+.Note-date {
+	text-align: left;
+	margin-right: 1rem;
+	grid-column: 11;
+}
+
+
+/* table head styles */
+
+.tableHead {
+	background-color: none;
+	border-top: none;
+	border-bottom: 0.6px solid #FF7AE2;
+	border-left: none;
+	border-right: none;
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	column-gap: 0.5rem;
+	margin-top: 0;
+	width: 100%;
+	padding-bottom: 0.4rem;
+	padding-top: 0.4rem;
+}
+
+input[type="button"] {
+	border: none;
+	color: none;
+	background-color: white;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-weight: 600;
+    margin: 0;
+	padding: 0;
+}
+
+#title {
+    margin-left: 2rem;
+}
+
+#tag {
+	grid-column: 7;
+}
+
+#date {
+	grid-column: 11;
+	text-align: left;
+}
+
+/* color by filter on hover */
+
+.Note[data-filter="dreams that made me feel a certain way"].open-details, .Note[data-filter="dreams that made me feel a certain way"]:hover {
+    background-color: #82D8D5;
+	color: black;
+}
+
+.Note[data-filter="thoughts on the L train"].open-details, .Note[data-filter="thoughts on the L train"]:hover {
+    background-color: #B8C7C4;
+	color: black;
+}
+
+
+.Note[data-filter="grocery list"].open-details,
+.Note[data-filter="grocery list"]:hover {
+    background-color: #FFE800;
+	color: black;
+}
+
+.Note[data-filter="giving recommendations to friends" ].open-details, .Note[data-filter="giving recommendations to friends"]:hover {
+	color: white;
+    background-color: #FF48B0;
+}
+
+.Note[data-filter="iphone photo cutouts"].open-details,
+.Note[data-filter="iphone photo cutouts"]:hover {
+    background-color: #F6A04D;
+	color: black;
+}
+
+.Note[data-filter="i don’t remember writing this"].open-details, .Note[data-filter="i don’t remember writing this"]:hover {
+    background-color: #9D7AD2;
+	color: white;
+}
+
+.Note[data-filter="notes that contain only one word"].open-details,
+.Note[data-filter="notes that contain only one word"]:hover {
+    background-color: #AC936E;
+	color: black;
+}
+
+.Note[data-filter="notes that end mid-sentence"].open-details,
+.Note[data-filter="notes that end mid-sentence"]:hover {
+    background-color: #ABFFAF;
+	color: black;
+}
+
+.Note[data-filter="chronicles of my life"].open-details,
+.Note[data-filter="chronicles of my life"]:hover {
+    background-color: #F2CDCF;
+	color: black;
+}
+
+.Note[data-filter="quotes i didn’t want to forget"].open-details,
+.Note[data-filter="quotes i didn’t want to forget"]:hover {
+    background-color: #F984CA;
+	color: black;
+}
+
+.Note[data-filter="learning my nth language"].open-details,
+.Note[data-filter="learning my nth language"]:hover {
+    background-color: #00838A;
+	color: white;
+}
+
+.Note[data-filter="obsessive fitness journal"].open-details,
+.Note[data-filter="obsessive fitness journal"]:hover {
+    background-color: #62A8E5;
+	color: black;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+	header {
+		margin-left: 1rem;
+		margin-top: 1rem;
+	}
+
+	.homepage {
+		font-size: 2rem;
+	}
+
+	.description {
+		font-size: 0.8rem;
+	}
+
+	.Note {
+		grid-template-columns: repeat(12, 1fr);
+		font-size: 0.8rem;
+		column-gap: 10px;
+	}
+
+	details {
+		margin-left: 1rem;
+		text-align: left;
+		grid-column-start: 1;
+		grid-column-end: 6;
+	}
+	
+	.Note-tag {
+		text-align: left;
+		grid-column-start: 6;
+		grid-column-end: 10;
+	}
+	
+	.Note-date {
+		text-align: left;
+		grid-column-start: 10;
+		grid-column-end: 13;
+		margin-right: 1rem;
+	}
+
+	/* TABLEHEAD STYLES */
+
+	.tableHead {
+		grid-template-columns: repeat(12, 1fr);
+		font-size: 0.8rem;
+		column-gap: 8px;
+	}
+
+	#title {
+		margin-left: 1rem;
+		text-align: left;
+		grid-column-start: 1;
+		grid-column-end: 6;
+	}
+
+	#tag {
+		text-align: left;
+		grid-column-start: 6;
+		grid-column-end: 10;
+	}
+
+	#date {
+		text-align: left;
+		grid-column-start: 10;
+		grid-column-end: 13;
+		margin-right: 1rem;
+	}
+}

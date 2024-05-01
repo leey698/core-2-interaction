@@ -11,6 +11,9 @@ fetch(URL)
     .catch(error => console.error('Error fetching data:', error));
 
 // Function to render gradient
+
+
+
 function render(data) {
     var solarNoonDateObject = new Date(`${data.results.date} ${data.results.solar_noon}`);
     var nowDateObject = new Date();
