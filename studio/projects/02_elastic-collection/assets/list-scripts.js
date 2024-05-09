@@ -86,6 +86,22 @@ function sortAndInsertNotes(sortBy) {
     insertFilteredNotes();
 }
 
+// Function to toggle the arrow direction
+function toggleArrowDirection(arrow) {
+    arrow.textContent = arrow.textContent === '↓' ? '↑' : '↓';
+}
+
+// Add event listeners for arrows
+document.querySelectorAll('.arrow').forEach(arrow => {
+    arrow.addEventListener('click', function(event) {
+        // Prevent the event from bubbling up to parent elements
+        event.stopPropagation();
+        // Toggle the arrow direction
+        toggleArrowDirection(this);
+    });
+});
+
+// Add event listeners for sorting buttons
 document.querySelector('input[value="title"]').addEventListener('click', () => {
     sortAndInsertNotes('title');
 });
@@ -97,6 +113,19 @@ document.querySelector('input[value="date"]').addEventListener('click', () => {
 document.querySelector('input[value="tag"]').addEventListener('click', () => {
     sortAndInsertNotes('tag');
 });
+
+
+// document.querySelector('input[value="title"]').addEventListener('click', () => {
+//     sortAndInsertNotes('title');
+// });
+
+// document.querySelector('input[value="date"]').addEventListener('click', () => {
+//     sortAndInsertNotes('date');
+// });
+
+// document.querySelector('input[value="tag"]').addEventListener('click', () => {
+//     sortAndInsertNotes('tag');
+// });
 
 // FILTERING
 // Define function to generate tag filtering buttons

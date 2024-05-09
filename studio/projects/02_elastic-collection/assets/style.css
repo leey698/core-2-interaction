@@ -31,6 +31,17 @@ nav {
 	right: 2rem;
 }
 
+.about-description {
+	line-height: 1.2rem;
+	display: flex;
+	margin: auto;
+	margin-top: 18vh;
+	width: 40vw;
+	padding: 2rem;
+	border: 2px solid #FF7AE2;
+	
+}
+
 a {
 	text-decoration: none;
 	color: #FF7AE2;
@@ -150,6 +161,7 @@ input[type="button"] {
 
 #title {
     margin-left: 2rem;
+	
 }
 
 #tag {
