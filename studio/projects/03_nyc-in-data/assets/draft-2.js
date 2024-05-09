@@ -23,7 +23,7 @@ function render(data) {
     var endSeconds = sunsetDateObject.getTime();
     console.log(startSeconds, nowSeconds, endSeconds);
     var angle = map(nowSeconds, startSeconds, endSeconds, 0, 360); // Map to 0-360 degrees
-    var gradientElement = document.querySelector('.gradient');
+    var gradientElement = document.querySelector('');
     gradientElement.style.background = `conic-gradient(from 180deg at 50% 50%, #082245 0.035999999090563506deg, #347DDE ${angle}deg, #89BFFF 359.9639940261841deg)`;
 }
 
