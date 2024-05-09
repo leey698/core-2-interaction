@@ -106,6 +106,7 @@ function render(data) {
         middleColor = "#3693FF"; 
         endColor = "#8FB0F9";
         fontColor = "E6E6E6";   
+        selectedTextColor = "rgb(47, 255, 0)";
 
     } else if (now < sunset) {
 
