@@ -19,25 +19,98 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
+    background-size: 100% 100%;
+    overflow: auto;
+    font-family: "ABC Monument Grotesk";
+    text-transform: uppercase;
+    background-attachment: fixed;
+    font-weight: 600;
   }
 
 
-.title {
+header {
     margin: 0;
-    font-family: "ABC Monument Grotesk";
-    text-transform: uppercase;
-    font-size: 1.7rem;
+    font-size: 1rem;
     position: fixed;
     margin-top: 20px;
     left: 40px;
 }
 
-.content {
-    font-family: "ABC Monument Grotesk";
-    font-size: 1.7rem;
-    line-height: 1.8rem;
-    /* color: #e5e5e5; */
+.content{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-transform: uppercase;
+    
+}
+
+#date-location {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+}
+
+.info {
+    display: none; /* Initially hide the info */
+    position: fixed;
+    top: 50%; /* Adjust as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 9999; /* Ensure it appears above other content */
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+
+}
+
+#artist-list {
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    text-align: center;
+    z-index: -1;
+}
+
+#tickets {
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    padding: 10px;
+    /* border: solid 1px black; */
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #8DDDFF 0%, #4982CF 100%);
+
+
+}
+
+
+.date {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.2rem;
     text-decoration: none;
+    text-align: center;
+    bottom: 20px;
     /* -webkit-user-select: text; /* Chrome, Safari, Opera */
     /* -moz-user-select: text; Firefox */
 }
@@ -46,72 +119,31 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+a:hover {
+    color: red;
+}
   
-#date-location {
-    text-transform: uppercase;
-    display: block;
-    position: fixed;
-    left: 40px;
-    bottom: 40px;
-    /* display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: minmax(80px, 6fr);
-    column-gap: 10px;
-    row-gap: 20px; */
-
-}
 
 
-.date {
-    grid-column: 5;
-    grid-row: 4;
-
-}
-
-.location {
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-row: 5;
-}
-
-#about-button {
-    position: fixed;
-    right: 40px;
-    bottom: 40px;
-
-}
-
-#about-button:hover {
-    transform: rotate(25deg);
-    scale: 120%;
-    transition: 0.3s;
-}
-
-#about-info {
-    display: none;
-
-}
 
 @media (max-width: 600px) {
-    .content {
-        font-size: 1.2rem;
-        line-height: 1.2rem;
-    }   
-    .title {
-        font-size: 1.2rem;
-        line-height: 1.2rem;
-        left: 20px;
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    #artist-list {
+        margin-top: 30px;
     }
 
     #date-location {
-        left: 20px;
-        bottom: 20px;
+        left: 10px;
+        bottom: 30px;
     }
-
-    #about-button {
-        right: 20px;
-        bottom: 20px;
-    }
-    
     
 }
