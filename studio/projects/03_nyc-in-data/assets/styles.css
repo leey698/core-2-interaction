@@ -30,10 +30,10 @@ body, html {
 
 header {
     margin: 0;
-    font-size: 1rem;
+    font-size: 0.6rem;
     position: fixed;
-    margin-top: 20px;
-    left: 40px;
+    margin-top: 18px;
+    right: 20px;
 }
 
 .content{
@@ -138,7 +138,7 @@ a:hover {
     }
 
     #artist-list {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #date-location {

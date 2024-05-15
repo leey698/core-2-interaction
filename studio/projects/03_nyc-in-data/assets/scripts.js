@@ -96,7 +96,7 @@ function render(data) {
         startColor = "#1983FF"; 
         middleColor = "#FFF280"; 
         endColor = "#E8CDF2";
-        fontColor = "#E6E6E6";
+        fontColor = "#D9D9D9";
         selectedTextColor = "rgb(47, 255, 0)";
 
     }else if (now < goldenHour) {
@@ -107,7 +107,7 @@ function render(data) {
         startColor = "#FF8451"; 
         middleColor = "#3693FF"; 
         endColor = "#8FB0F9";
-        fontColor = "9A9A9A";   
+        fontColor = "#D9D9D9";   
         selectedTextColor = "rgb(47, 255, 0)";
 
     } else if (now < sunset) {
@@ -115,8 +115,8 @@ function render(data) {
         // between golden hour and sunset
         start = goldenHour;
         end = sunset;
-        startColor = "#F6BD4D"; // Example start color for this phase
-        middleColor = "#FF8451"; // Example middle color for this phase
+        startColor = "#F6BD4D";
+        middleColor = "#FF8451";
         endColor = "#3693FF";
         fontColor = "9A9A9A";   
 
@@ -125,8 +125,8 @@ function render(data) {
         // between sunset and dusk
         start = sunset;
         end = dusk;
-        startColor = "#2F3554"; // Example start color for this phase
-        middleColor = "#1A4A89"; // Example middle color for this phase
+        startColor = "#2F3554";
+        middleColor = "#1A4A89";
         endColor = "#FF6C2F";
         fontColor = "9A9A9A";   
 
@@ -135,8 +135,8 @@ function render(data) {
         // between dusk and last light
         start = dusk;
         end = lastLight;
-        startColor = "#000000"; // Example start color for this phase
-        middleColor = "#0D356B"; // Example middle color for this phase
+        startColor = "#000000";
+        middleColor = "#0D356B"; //
         endColor = "#1A4A89";
         fontColor = "9A9A9A";
 
@@ -164,8 +164,6 @@ function render(data) {
     var style = document.createElement('style');
     document.querySelector('.content').style.color = fontColor; // Add this line to set font color
 
-    var style = document.createElement('style');
-    document.querySelector('.background').style.color = backgroundFontColor;
 
     style.innerHTML = `::selection { background-color: ${selectedTextColor}; }`;
     document.head.appendChild(style);
