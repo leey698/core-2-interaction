@@ -66,26 +66,25 @@ function render(data) {
         endColor = "#000000";
         fontColor = "#9A9A9A";
         selectedTextColor = "rgb(47, 255, 0)";
-        backgroundFontColor = "#555555"
 
     } else if (now < dawn) {
         
         start = firstLight;
         end = dawn;
-        startColor = "#FFF280"; 
-        middleColor = "#8FB0F9"; 
-        endColor = "#E8CDF2";
-        fontColor = "#9A9A9A";
+        startColor = "#E8CDF2"; 
+        middleColor = "#202E3F"; 
+        endColor = "#0D1724";
+        fontColor = "#E6E6E6";
         selectedTextColor = "rgb(47, 255, 0)";
 
     } else if (now < sunrise) {
         
         start = dawn;
         end = sunrise;
-        startColor = "#1983FF"; 
-        middleColor = "#FFF280"; 
-        endColor = "#8FB0F9";
-        fontColor = "#000000";
+        startColor = "#FFF280"; 
+        middleColor = "#8FB0F9"; 
+        endColor = "#E8CDF2";
+        fontColor = "#FFFFFF";
         selectedTextColor = "rgb(47, 255, 0)";
     }
     
@@ -95,8 +94,8 @@ function render(data) {
         end = solarNoon;
         startColor = "#1983FF"; 
         middleColor = "#FFF280"; 
-        endColor = "#E8CDF2";
-        fontColor = "#D9D9D9";
+        endColor = "#8FB0F9";
+        fontColor = "#FFFFFF";
         selectedTextColor = "rgb(47, 255, 0)";
 
     }else if (now < goldenHour) {
@@ -107,7 +106,7 @@ function render(data) {
         startColor = "#FF8451"; 
         middleColor = "#3693FF"; 
         endColor = "#8FB0F9";
-        fontColor = "#D9D9D9";   
+        fontColor = "#FFFFFF";   
         selectedTextColor = "rgb(47, 255, 0)";
 
     } else if (now < sunset) {
@@ -118,7 +117,9 @@ function render(data) {
         startColor = "#F6BD4D";
         middleColor = "#FF8451";
         endColor = "#3693FF";
-        fontColor = "9A9A9A";   
+        fontColor = "#E6E6E6";   
+        selectedTextColor = "rgb(47, 255, 0)";
+
 
     } else if (now < dusk ) {
 
@@ -128,7 +129,7 @@ function render(data) {
         startColor = "#2F3554";
         middleColor = "#1A4A89";
         endColor = "#FF6C2F";
-        fontColor = "9A9A9A";   
+        fontColor = "#E6E6E6";   
 
     } else if (now < lastLight) {
 
@@ -138,7 +139,7 @@ function render(data) {
         startColor = "#000000";
         middleColor = "#0D356B"; //
         endColor = "#1A4A89";
-        fontColor = "9A9A9A";
+        fontColor = "#E6E6E6";
 
 
     } else if (now < dayEnd) {
@@ -149,7 +150,7 @@ function render(data) {
         startColor = "#000000"; 
         middleColor = "#0D1724"; 
         endColor = "#0D356B";
-        fontColor = "9A9A9A";
+        fontColor = "#E6E6E6";
     }
 
 
@@ -162,7 +163,7 @@ function render(data) {
     console.log(currentPosition);
 
     var style = document.createElement('style');
-    document.querySelector('.content').style.color = fontColor; // Add this line to set font color
+    document.querySelector('body').style.color = fontColor; 
 
 
     style.innerHTML = `::selection { background-color: ${selectedTextColor}; }`;

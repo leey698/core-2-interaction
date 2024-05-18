@@ -28,7 +28,7 @@ body, html {
   }
 
 
-header {
+.clock {
     margin: 0;
     font-size: 0.6rem;
     position: fixed;
@@ -99,7 +99,6 @@ header {
     /* border: solid 1px black; */
     border-radius: 50%;
     background: radial-gradient(50% 50% at 50% 50%, #8DDDFF 0%, #4982CF 100%);
-
 
 }
 
