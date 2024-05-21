@@ -52,6 +52,16 @@ video {
     align-items: center;
     width: 73vw;
 }
+
+img {
+    align-items: center;
+    width: 73vw;
+}
+
+p {
+    text-align: center;
+}
+
 .content {
     margin: 0 auto;
     padding: 4rem;
